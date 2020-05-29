@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile - Jeremy Mark</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        background: #333;
+      }
+
+      header h1 {
+        margin-left: 10px;
+        color: rgba(0, 136, 169, 1);
+      }
+
+      #navLinks a {
+        color: antiquewhite;
+        text-decoration: none;
+      }
+
+      audio {
+        margin: 20px;
+      }
+
+      section {
+        margin-top: 25px;
+        margin-left: 10px;
+      }
+
+      #profileImage {
+        border: 5px solid rgba(0, 136, 169, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Profile - Jeremy Mark</h1>
+      <nav id="navLinks">
+        <a href="#about">About Me</a> |
+        <a href="#interests">Interest</a>
+      </nav>
+      <audio
+        src="mp3s/Haydn_Cello_Concerto_D-1.mp3"
+        controls
+        loop
+        style="margin-bottom: 25px;"
+      >
+        Your browser does not support HTML5 audio. Here is
+        <a href="mp3s/Haydn_Cello_Concerto_D-1.mp3">a link to the audio</a>
+        instead.
+      </audio>
+    </header>
+    <section id="about">
+      <img
+        id="profileImage"
+        src="images/profileImage.png"
+        alt="Image of a man smiling"
+        style="margin-bottom: 25px;"
+      />
+      <h2>About Me</h2>
+      <ul>
+        <li>I was born in Fort Worth, Texas.</li>
+        <li>I currently live in Dallas, Texas.</li>
+        <li>
+          My current occupations are a Front End Developer at Bank of America
+          and an instructor for
+          <a href="https://www.nucamp.co/home" target="_blank">Nucamp</a>.
+        </li>
+        <li>
+          My ideal dream job would be to work for a professional sports team as
+          a sports recruiter.
+        </li>
+        <li>
+          One goal I'd like to accomplish within my lifetime is to visit at
+          least 50 different countries.
+        </li>
+      </ul>
+    </section>
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Traveling and hiking</li>
+        <li>Sports (football, baseball, basketball)</li>
+        <li>
+          Playing and learning
+          <a href="https://www.chess.com/" target="_blank">chess</a>
+          <br />
+          <a href="https://www.chess.com/" target="_blank">
+            <img
+              src="images/chessPieces.jpeg"
+              alt="Image of chess pieces on a board"
+              height="150"
+            />
+          </a>
+        </li>
+        <li>Coffee</li>
+      </ul>
+    </section>
+  </body>
+</html>
