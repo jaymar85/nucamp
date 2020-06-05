@@ -33,9 +33,12 @@
 
         document.body.style.background = guess;
 
+        // alert(
+        //   "Congratulations! You have guessed the color!\n\n" + "It took you " + numTries + " guesses to finish the game!\n\n" + "Hit OK to see the color in the background."
+        // );
+
         alert(
-          "Congratulations! You have guessed the color!\n\n" + "It took you " + numTries +
-          " guesses to finish the game!\n\n" + "Hit OK to see the color in the background."
+          `Congratulations! You have guessed the color!\n\n It took you ${numTries} guesses to finish the game!\n\n Hit OK to see the color in the background.`
         );
       }
 
@@ -48,11 +51,11 @@
           alert("Sorry, I don't recognize your color. " + tryMsg);
         } else if (guess < target) {
           alert(
-            sorryMsg + "Hint: your color is alphabetically lower than mine." + tryMsg
+            sorryMsg + "Hint: your color is alphabetically after mine." + tryMsg
           );
         } else if (guess > target) {
           alert(
-            sorryMsg + "Hint: your color is alphabetically higher than mine." + tryMsg
+            sorryMsg + "Hint: your color is alphabetically before mine." + tryMsg
           );
         } else {
           correct = true;
