@@ -5,7 +5,17 @@
     <title>JavaScript Hello World</title>
   </head>
   <body>
+    <h1>JavaScript Hello World</h1>
     <button type="button" onclick="getName()">Click Me</button>
-    <script src="js/javascript-hello-world.js"></script>
+    <script>
+      function getName() {
+        const userName = prompt("What is your name?");
+        sayHello(userName);
+      }
+
+      function sayHello(name) {
+        alert(`Hello ${name}!`);
+      }
+    </script>
   </body>
 </html>

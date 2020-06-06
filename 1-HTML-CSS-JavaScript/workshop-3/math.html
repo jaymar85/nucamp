@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coin Flip Game</title>
+  </head>
+  <body>
+    <h1>Head or Tails</h1>
+    <button type="button" onclick="game()">Start Game</button>
+    <script>
+        let coin = ['heads', 'tails'];
+
+        function game() {
+            const index = Math.floor(Math.random() * coin.length);
+            console.log(index)
+            const target = coin[index];
+            console.log(target)
+        }
+    </script>
+  </body>
+</html>

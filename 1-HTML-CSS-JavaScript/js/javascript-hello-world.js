@@ -5,3 +5,4 @@ function getName() {
 function sayHello(name) {
   alert(`Hello ${name}!`);
 }
+

@@ -8,7 +8,7 @@
     <h1>Color Guessing Game</h1>
     <button type="button" onclick="runGame()">Start Game</button>
     <script>
-      const COLORS_ARRAY = ["aqua", "blue", "coral", "gray", "green", "orange", "purple", "red", "white", "yellow",];
+      const COLORS_ARRAY = ["aqua", "blue", "coral", "gray", "green", "orange", "purple", "red", "white", "yellow"];
 
       function runGame() {
         let game = "";
@@ -48,9 +48,9 @@
         if (!COLORS_ARRAY.includes(guess)) {
           alert("Sorry, I don't recognize your color. " + tryMsg);
         } else if (guess < target) {
-          alert(sorryMsg + "Hint: your color is alphabetically after mine." + tryMsg);
+          alert(sorryMsg + "Hint: your color is alphabetically lower than mine." + tryMsg);
         } else if (guess > target) {
-          alert(sorryMsg + "Hint: your color is alphabetically before mine." + tryMsg);
+          alert(sorryMsg + "Hint: your color is alphabetically higher than mine." + tryMsg);
         } else {
           correct = true;
         }
