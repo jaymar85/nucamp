@@ -1,19 +1,25 @@
 // Functions have 3 main parts
 // 1. inputs 2. code 3. output
 
-function greeting(firstName) {
-    console.log('Hello, ' + firstName + '!')
-}
-
-greeting('Batman');
-
-// function first() {
-//     var name = 'Jen'
+// function greeting() {
+//     console.log(`Hello`)
 // }
 
-// console.log(name)
+// greeting();
 
-function add(num) {
-    let addition = num + 2;
-    return addition
+// Global
+
+
+// Parent function
+function first() {
+    var name = 'Jen'
+    return name
 }
+
+let value = first()
+console.log(value)
+
+
+
+
+

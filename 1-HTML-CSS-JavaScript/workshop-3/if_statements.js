@@ -1,10 +1,6 @@
 function drink(myString) {
 
-    if (myString === 'coffee') {
-        console.log('Contains caffeine');
-    } else if (myString === 'black tea') {
-        console.log('Contains caffeine');
-    } else if (myString === 'soda') {
+    if (myString === 'coffee' || myString === 'black tea') {
         console.log('Contains caffeine');
     } else if (myString === 'lemonade') {
         console.log('No caffeine');
@@ -13,4 +9,8 @@ function drink(myString) {
     }
 }
 
-drink('soda')
+drink('tea')
+
+let num = 2
+num = num + 2
+num += 2
