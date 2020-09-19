@@ -1,12 +1,12 @@
-let favFoods = ['fries', 'pizza', 'chicken', 'sandwiches']
+let favFoods = ['fries', 'pizza', 'fried chicken', 'cheese cake']
 
-favFoods.push('soda')
-console.log(favFoods)
+// favFoods.push('soda')
+// console.log(favFoods)
 
-favFoods.pop()
-console.log(favFoods)
+// favFoods.pop()
+// console.log(favFoods)
 
 
-console.log(favFoods.indexOf('soda'))
+console.log(favFoods.join(', '))
 // console.log(favFoods.join(', '))
 

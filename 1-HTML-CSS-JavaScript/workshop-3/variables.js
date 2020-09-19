@@ -6,10 +6,9 @@
 // firstName = 'Emmy'
 // console.log(firstName)
 
-// var a = 1;
-// a = 2;
+var num = 1;
+num = 2;
 
-// var a = 3
-// console.log(a)
+var num = 3
+console.log(num)
 
-console.log(5 = '5')

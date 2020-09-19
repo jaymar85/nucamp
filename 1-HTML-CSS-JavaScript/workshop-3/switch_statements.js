@@ -17,5 +17,3 @@ function drink(myString) {
 }
 
 drink("soda")
-
-// console.log(5 == '5')

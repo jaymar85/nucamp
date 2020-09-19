@@ -1,11 +1,11 @@
 // Functions have 3 main parts
 // 1. inputs 2. code 3. output
 
-// function greeting() {
-//     console.log(`Hello`)
-// }
+function greeting() {
+    console.log(`Hello`)
+}
 
-// greeting();
+greeting();
 
 // Global
 
