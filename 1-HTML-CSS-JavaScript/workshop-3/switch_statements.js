@@ -1,11 +1,7 @@
 function drink(myString) {
     switch(myString) {
         case 'coffee':
-            console.log('Contains caffeine');
-            break;
         case 'black tea':
-            console.log('Contains caffeine');
-            break;
         case 'soda':
             console.log('Contains caffeine');
             break;

@@ -1,7 +1,7 @@
 function drink(myString) {
 
     if (myString === 'coffee' || myString === 'black tea') {
-        console.log('Contains caffeine');
+        console.log('Contains caffeine');     
     } else if (myString === 'lemonade') {
         console.log('No caffeine');
     } else {
@@ -11,6 +11,10 @@ function drink(myString) {
 
 drink('tea')
 
-let num = 2
-num = num + 2
-num += 2
+// let num = 2
+// num = num + 2
+// num += 2
+
+if (myString) {
+    console.log("You can not enter your account")
+}

@@ -1,14 +1,13 @@
 // let name = 'Jen';
-// name = 'Ben';
+// name = 'Tyler';
 // console.log(name)
 
-// const firstName = 'Emily';
-// firstName = 'Emmy'
-// console.log(firstName)
+const firstName = "Mack";
+console.log(firstName)
 
-var num = 1;
-num = 2;
+// var num = 1;
+// num = 2;
 
-var num = 3
-console.log(num)
+// var num = 3
+// console.log(num)
 
