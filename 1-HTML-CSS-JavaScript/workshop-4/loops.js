@@ -1,5 +1,19 @@
-// For Loops
+// For loops
+for(let i = 0; i < 10; i++) {
+    if (i % 2 === 0) {
+        console.log('evens', i);
+        continue;
+    }
+    // console.log('odds', i);
+}
 
+// let x = 5;                                   
+// for (let i = 1; i <= 3; i++) {                                            
+//     x = x * i;                                                
+//     console.log(x);                                   
+// }
+
+// For Loops with arrays
 let colorsArray = ['red', 'blue', 'green', 'cyan']
 
 // for (let i = 0; i < colorsArray.length; i++) {
@@ -10,9 +24,10 @@ let colorsArray = ['red', 'blue', 'green', 'cyan']
 //     console.log(color);
 // }
 
-// let x = 5;  
 
-// for (let i = 1; i <= 5; i++) {                                           
-//      x = x * i;              
-//      console.log(x);                                   
-// }
+
+// const numsArray = [2, 4, 6, 8];		
+
+// for (let n of numsArray) {   		      
+//     console.log(n * 2);		
+// }
