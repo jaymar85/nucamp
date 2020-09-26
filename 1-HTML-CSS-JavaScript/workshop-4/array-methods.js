@@ -14,7 +14,7 @@ let guysArray = ["Micheal", "Seth", "Jose", "Anna"]
 // console.log(classArray.reverse());
 
 //// Slice:
-// console.log(galsArray.slice(1, 3));
+// console.log(galsArray.slice());
 
 //// Splice:
 let newGuysArr = guysArray.splice(2, 1);

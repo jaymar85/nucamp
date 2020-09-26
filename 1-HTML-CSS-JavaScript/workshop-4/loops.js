@@ -1,14 +1,18 @@
 // For loops
-for(let i = 0; i < 10; i++) {
-    if (i % 2 === 0) {
-        console.log('evens', i);
-        continue;
-    }
-    // console.log('odds', i);
-}
+// for(let i = 0; i < 10; i++) {
+    // if (i >= 5) { 
+    //     break;
+    // }
+    // if (i % 2 === 0) {
+    //     console.log('evens', i);
+    //     continue;
+    // }
+    // console.log(i);
+// }
+
 
 // let x = 5;                                   
-// for (let i = 1; i <= 3; i++) {                                            
+// for (let i = 1; i < 3; i++) {                                            
 //     x = x * i;                                                
 //     console.log(x);                                   
 // }
@@ -17,7 +21,7 @@ for(let i = 0; i < 10; i++) {
 let colorsArray = ['red', 'blue', 'green', 'cyan']
 
 // for (let i = 0; i < colorsArray.length; i++) {
-//     console.log(colorsArray[i]);
+//     console.log(i, colorsArray[i]);
 // }
 
 // for (let color of colorsArray) {
@@ -31,3 +35,7 @@ let colorsArray = ['red', 'blue', 'green', 'cyan']
 // for (let n of numsArray) {   		      
 //     console.log(n * 2);		
 // }
+
+
+
+
