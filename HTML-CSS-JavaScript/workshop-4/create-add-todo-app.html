@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <style>
+        h3 {
+            cursor: pointer;
+        }
+
+        h3:hover {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <h3>Add a new todo below here.</h3>
+    <button type="button" onclick="addNewTodo()">Add Todo</button>
+    <p>Clean the kitchen</p>
+    <p>Exercise</p>
+    <script>
+        function addNewTodo() {
+            let newTodo = document.createElement("p");
+            newTodo.textContent = "This is a new todo"
+            document.querySelector('body').appendChild(newTodo) 
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background: #b4eeca;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+  color: blueviolet;
+  font: 32px Garamond, Helvetica, serif;
+}
+
+section {
+  border: solid purple 3px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 50%;
+}
+
+thead {
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+#submit-btn {
+  display: block;
+}
