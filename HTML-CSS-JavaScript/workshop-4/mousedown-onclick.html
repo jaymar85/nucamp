@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #myP {
+            text-align: center;
+            border-radius: 10px;
+            width: 60%;
+            margin: 200px auto;
+            padding: 10px;
+        }
+
+        button {
+            margin: 25px auto;
+        }
+    </style>
+</head>
+<body>
+<div id="myP">
+    <p>Click the text! The mouseDown() function is triggered when the mouse button is pressed down over this paragraph, and sets the color of the text to red. The mouseUp() function is triggered when the mouse button is released, and sets the color of the text to green.</p>
+    <button type="button" onmousedown="mouseDown()" onmouseup="mouseUp()">Button</button>
+</div>
+
+
+<script>
+    const div = document.getElementById('myP')
+    const p = document.querySelector('p');
+    const button = document.querySelector('button');
+
+    // button.addEventListener('click', mouseDown);
+    // button.addEventListener('dblclick', mouseUp);
+
+    function mouseDown() {
+        div.style.backgroundColor = "purple";
+        p.style.color = "white";
+    }
+
+    function mouseUp() {
+        div.style.backgroundColor = "white";
+        p.style.color = "black"
+    }
+</script>
+</body>
+</html>

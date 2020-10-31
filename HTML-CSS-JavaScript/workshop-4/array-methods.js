@@ -1,5 +1,5 @@
-let galsArray = ["Cece", "Melissa", "Stacy", "Emily"]
-let guysArray = ["Micheal", "Seth", "Jose", "Anna"]
+let galsArray = ["Cece", "Bridget", "Stacy", "Mariya"]
+let guysArray = ["Manny", "Dave", "Victor"]
 
 // Take a wild educated guess?
 
