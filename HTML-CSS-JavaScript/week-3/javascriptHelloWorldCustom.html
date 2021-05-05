@@ -9,14 +9,14 @@
     <button type="button" onclick="getName()">Click Me</button>
     <script>
       function getName() {
-        const userName = prompt("What is your name?");
-        sayHello(userName);
+        const firstName = prompt("What is your first name?");
+        const lastName = prompt("What is your last name?");
+        sayHello(firstName.toUpperCase(), lastName);
       }
 
-      function sayHello(name) {
-        alert(`Hello ${name}!`);
+      function sayHello(firstName, lastName) {
+        alert('Hello ' + firstName + ' ' + lastName + '!');
       }
-
     </script>
   </body>
 </html>

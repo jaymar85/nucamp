@@ -1,4 +1,25 @@
 h1 {
-    color: purple;
+    color: #8c638c80;
     text-align: center;
 }
+
+div h1, div p {
+    color: magenta;
+    font-size: 50px !important;
+    display: inline-block;
+    color: rgba(300, 17%, 47%, 0.5);
+}
+
+#blog-title::after {
+
+}
+
+.header-size {
+    font-size: 50em;
+}
+
+.author {
+    display: inline-block;
+    float: right;
+}
+
