@@ -2,7 +2,8 @@ function greeting(userName, lastName) {
     console.log("Hello " + userName + " " + lastName)
 }
 
-greeting("Dave", "Frank");
+const helloYou = greeting("Johnson", "Dave" );
+console.log(helloYou);
 
 // Parent function
 // function first() {

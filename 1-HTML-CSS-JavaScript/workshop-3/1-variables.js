@@ -19,9 +19,13 @@
 // let myName = null;
 
 
-let myName = "Manny";
-console.log(myName)
-let myName = "Jeremy"
+// let myName = "Manny";
+// console.log(myName)
+// let myName = "Jeremy"
+
+// const donuts = "Emerson";
+// donuts = "Tish is awesome";
+// console.log(donuts);
 
 
 
